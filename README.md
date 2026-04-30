@@ -25,6 +25,13 @@ Check [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) for more details.
  - [ ] Linux
  - [ ] MacOS
 
+## Requirements
+
+- C++17
+- Windows SDK (for DirectX backends)
+- DirectX SDK (for DirectX backends)
+- Vulkan SDK (for Vulkan backends)
+
 ## Quick start
 
 ```cpp
