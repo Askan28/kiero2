@@ -16,7 +16,7 @@ kiero::shutdown();
 
 Same code on v2:
 
-```
+```C++
 // v2
 kiero::D3D9Output output;
 auto error = kiero::locate<kiero::Implementation_D3D9>(nullptr, &output);
