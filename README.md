@@ -1,14 +1,18 @@
-# kiero v2
 
-A lightweight C++ library that ~~hooks~~ locates graphics API methods
+<h1 align="center">kiero v2</h1>
+<p align="center">
+A lightweight C++ library that <strike>hooks</strike> locates graphics API methods
 at runtime.
+</p>
+<br>
 
-## Breaking Changes (compared to v1)
-
-You bring your own hooking library. kiero just finds the
-addresses.
-
-Check [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) for more details.
+> [!IMPORTANT]
+> ## Breaking Changes (compared to v1)
+>
+> You bring your own hooking library. kiero just finds the
+> addresses.
+>
+> Check [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) for more details.
 
 ## Official Supported APIs
 
