@@ -1,7 +1,5 @@
-#include <windows.h>
 #include <dxgi.h>
 #include <d3d10.h>
-#include <winerror.h>
 #include "kiero.hpp"
 #include "kiero_d3d10.hpp"
 #include "kiero_intern.hpp"

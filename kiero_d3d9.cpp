@@ -1,4 +1,3 @@
-#include <windows.h>
 #include <d3d9.h>
 #include "kiero.hpp"
 #include "kiero_d3d9.hpp"
@@ -67,4 +66,3 @@ kiero::Error kiero::locate<kiero::Implementation_D3D9>(void* in, void* out)
 
   return Error_Nil;
 }
-

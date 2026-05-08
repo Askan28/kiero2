@@ -1,4 +1,3 @@
-#include <windows.h>
 #include "kiero.hpp"
 #include "kiero_vulkan.hpp"
 #include "kiero_intern.hpp"

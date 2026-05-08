@@ -1,4 +1,3 @@
-#include <windows.h>
 #include <dxgi.h>
 #include <d3d11.h>
 #include "kiero.hpp"
