@@ -105,7 +105,7 @@ kiero::Error kiero::locate<kiero::Implementation_D3D11>(void* in, void* out)
   ID3D11DeviceContext* context;
   D3D_FEATURE_LEVEL feature_level;
 
-  auto hr = D3D11CreateDeviceAndSwapChain(
+  hresult = D3D11CreateDeviceAndSwapChain(
     adapter,
     D3D_DRIVER_TYPE_UNKNOWN,
     nullptr,
@@ -119,8 +119,8 @@ kiero::Error kiero::locate<kiero::Implementation_D3D11>(void* in, void* out)
     &feature_level,
     &context
   );
-  if (FAILED(hr)) {
-    KIERO_DBG_MSG("D3D11CreateDeviceAndSwapChain failed (%d)", hr);
+  if (hresult != S_OK) {
+    KIERO_DBG_MSG("D3D11CreateDeviceAndSwapChain failed (%d)", hresult);
     return Error_D3D11_CreateDeviceAndSwapChainFailed;
   }
   KIERO_DEFER([&]() {
